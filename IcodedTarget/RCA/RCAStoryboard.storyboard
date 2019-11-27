@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--More Info View Controller-->
+        <scene sceneID="8Th-Ca-XQ0">
+            <objects>
+                <viewController storyboardIdentifier="MoreInfoViewController" id="11h-xy-5a2" customClass="MoreInfoViewController" customModule="IcodedTarget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tF4-S5-6KI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RCA Digital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mU-au-IoA">
+                                <rect key="frame" x="20" y="20" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Padre Cacique, 320" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqz-3U-buZ">
+                                <rect key="frame" x="20" y="49" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menino Deus - Porto Alegre/RS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90G-P2-D48">
+                                <rect key="frame" x="20" y="78" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="company" translatesAutoresizingMaskIntoConstraints="NO" id="di3-jt-EO7">
+                                <rect key="frame" x="152.5" y="323" width="70" height="21.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BkG-Hq-N0W" firstAttribute="trailing" secondItem="6mU-au-IoA" secondAttribute="trailing" constant="20" id="5bb-Ip-s5V"/>
+                            <constraint firstItem="di3-jt-EO7" firstAttribute="centerY" secondItem="BkG-Hq-N0W" secondAttribute="centerY" id="6Xb-2V-bum"/>
+                            <constraint firstItem="Fqz-3U-buZ" firstAttribute="top" secondItem="6mU-au-IoA" secondAttribute="bottom" constant="8" id="Bco-et-hEa"/>
+                            <constraint firstItem="BkG-Hq-N0W" firstAttribute="trailing" secondItem="Fqz-3U-buZ" secondAttribute="trailing" constant="20" id="Jg3-hx-YIH"/>
+                            <constraint firstItem="BkG-Hq-N0W" firstAttribute="trailing" secondItem="90G-P2-D48" secondAttribute="trailing" constant="20" id="LrM-Ao-vUD"/>
+                            <constraint firstItem="90G-P2-D48" firstAttribute="leading" secondItem="BkG-Hq-N0W" secondAttribute="leading" constant="20" id="SEE-dA-USb"/>
+                            <constraint firstItem="6mU-au-IoA" firstAttribute="top" secondItem="BkG-Hq-N0W" secondAttribute="top" constant="20" id="gIC-xr-0Je"/>
+                            <constraint firstItem="di3-jt-EO7" firstAttribute="centerX" secondItem="BkG-Hq-N0W" secondAttribute="centerX" id="htM-Ya-j9e"/>
+                            <constraint firstItem="90G-P2-D48" firstAttribute="top" secondItem="Fqz-3U-buZ" secondAttribute="bottom" constant="8" id="kaL-aO-oEv"/>
+                            <constraint firstItem="6mU-au-IoA" firstAttribute="leading" secondItem="BkG-Hq-N0W" secondAttribute="leading" constant="20" id="nq4-EQ-wqT"/>
+                            <constraint firstItem="Fqz-3U-buZ" firstAttribute="leading" secondItem="BkG-Hq-N0W" secondAttribute="leading" constant="20" id="rZr-4U-OaN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BkG-Hq-N0W"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QqU-r3-DOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="company" width="70" height="21.5"/>
+    </resources>
+</document>
